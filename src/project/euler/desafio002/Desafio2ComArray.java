@@ -3,7 +3,7 @@ package project.euler.desafio002;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Programa {
+public class Desafio2ComArray {
 
 	public static void main(String[] args) {
 
@@ -11,9 +11,7 @@ public class Programa {
 		numeros.add(1);
 		numeros.add(2);
 
-		Integer indice = 1;
-		Integer somaDosDoisUltimosNumeros = 0;
-		Integer somaDosNumerosPares = 2;
+		int indice = 1, somaDosDoisUltimosNumeros = 0, somaDosNumerosPares = 2;
 
 		while (somaDosNumerosPares <= 4_000_000) {
 			somaDosDoisUltimosNumeros = numeros.get(indice) + numeros.get(indice - 1);

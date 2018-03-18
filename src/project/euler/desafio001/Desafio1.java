@@ -1,6 +1,6 @@
 package project.euler.desafio001;
 
-public class Programa {
+public class Desafio1 {
 	
 	public static void main(String[] args) {
 		int soma = 0;
