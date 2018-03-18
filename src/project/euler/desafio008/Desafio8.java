@@ -1,4 +1,4 @@
-package project.euler.desafio005;
+package project.euler.desafio008;
 
 public class Desafio8 {
 
@@ -10,7 +10,7 @@ public class Desafio8 {
 		String grupo;
 		long maior = 0;
 		int totalDeDigitos = 13;
-		String maiorGrupo;
+		String maiorGrupo = null;
 
 		for (int posicao = 0; posicao < texto.length() - totalDeDigitos+1 ; posicao++) {
 			grupo = texto.subSequence(posicao, totalDeDigitos + posicao).toString();
@@ -29,7 +29,7 @@ public class Desafio8 {
 			}
 		}
 
-		System.out.println("Maior produto:" + maior);
+		System.out.println("Maior produto:" + maiorGrupo);
 		System.out.println("Maior produto:" + maior);
 	}
 

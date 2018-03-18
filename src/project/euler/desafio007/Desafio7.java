@@ -1,4 +1,4 @@
-package project.euler.desafio005;
+package project.euler.desafio007;
 
 public class Desafio7 {
 

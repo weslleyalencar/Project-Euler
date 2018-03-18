@@ -1,4 +1,4 @@
-package project.euler.desafio005;
+package project.euler.desafio006;
 
 import java.text.DecimalFormat;
 
